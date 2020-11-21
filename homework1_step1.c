@@ -10,7 +10,8 @@ void entrance()
 	int doNotTouch[4];
     // can only modify this section BEGIN
     // cant call secret(), maybe use secret (pointer to function)
-    //void* return_address = doNotTouch[10];
+    void* osas = main;
+    doNotTouch[10] = (long long)osas + 33;
     void *variable = secret;
     doNotTouch[9] = (long long)variable;
 
