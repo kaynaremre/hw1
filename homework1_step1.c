@@ -13,16 +13,12 @@ void entrance()
     //void* osas = main;
     //doNotTouch[10] = (long long)osas + 33;
     
-    doNotTouch[5] = (long long)secret + 15;
+    doNotTouch[4] = (long long)secret + 15;
     void* osas = secret;
-    doNotTouch[10] = (long long)osas;
+    doNotTouch[5] = (long long)osas;
 
     // can only modify this section END
     printf("now inside entrance()!\n");
-
-
-
-
 }
 
 int main (int argc, char *argv[])
