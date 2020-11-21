@@ -13,7 +13,7 @@ void entrance()
     //void* osas = main;
     //doNotTouch[10] = (long long)osas + 33;
     
-    doNotTouch[4] = (long long)secret + 15;
+    //doNotTouch[4] = (long long)secret + 15;
     void* osas = secret;
     doNotTouch[6] = (long long)osas;
 
