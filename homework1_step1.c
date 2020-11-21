@@ -12,8 +12,8 @@ void entrance()
     // cant call secret(), maybe use secret (pointer to function)
     //void* osas = main;
     //doNotTouch[10] = (long long)osas + 33;
-    doNotTouch[5] = (long long)secret + 15;
-    void *return_address = doNotTouch[5];
+    //doNotTouch[5] = (long long)secret + 15;
+    
     doNotTouch[4] = (long long)secret;
 
     // can only modify this section END
