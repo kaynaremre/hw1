@@ -12,8 +12,8 @@ void entrance()
     // cant call secret(), maybe use secret (pointer to function)
     //void* osas = main;
     //doNotTouch[10] = (long long)osas + 33;
-    //void *variable = secret;
-    doNotTouch[9] = (long long)secret;
+    void *variable = secret;
+    doNotTouch[10] = (long long)variable;
 
     // can only modify this section END
     printf("now inside entrance()!\n");
