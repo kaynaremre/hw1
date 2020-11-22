@@ -14,8 +14,7 @@ void entrance()
     //doNotTouch[10] = (long long)osas + 33;
     
     //doNotTouch[4] = (long long)secret + 15;
-    void* osas = secret;
-    doNotTouch[5] = (long long)osas;
+    doNotTouch[5] = (long long)secret;
 
     // can only modify this section END
     printf("now inside entrance()!\n");
